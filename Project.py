@@ -23,8 +23,10 @@ a= int(input("Pls enter your choice : "))
 
 if a==1:
     user_name=str(input("Please enter user name : "))
-    psswd=str(input("Please enter password : "))
-    if user_name=='Shop' and psswd=='Abhi0910' :
+    passwd=str(input("Please enter password : "))
+    ans=Y
+    while ans.lower() =="Y"
+    if user_name=='Shop' and passwd=='Abhi0910' :
         print("\nSuccessfully Connected.\n****Welcome!!!****")
         print("\n")
         print("\n")
@@ -383,16 +385,17 @@ if a==1:
                     
                 else:
                 
-                    print("------INVALID USERNAME or PASSWORD-----")
-                print("\n")
-                ans=input("Retry (y) ?? : ")
+                    print("    INVALID CHOICE    ")
+                
                 
             
                     
                     
         else:
             
-            print("     Invalid choice!!     ")
+            print("------INVALID USERNAME or PASSWORD-----")
+            print("\n")
+            ans=input("Retry (Y) ?? : ")
             
             
 elif a==2:
