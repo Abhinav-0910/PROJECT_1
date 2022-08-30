@@ -14,7 +14,7 @@ c=conn.cursor()
 print("\n")
 print("\n")
 print("*******************************************")
-print("*      Grocery Shop Management System     *")
+print("*-----Grocery Shop Management System------*")
 print("*******************************************")
 
 print("\n")
